@@ -75,35 +75,35 @@ class Builder {
 	 *
 	 * @var array
 	 */
-	public $joins = [];
+	public $joins = []
 
 	/**
 	 * The where constraints for the query.
 	 *
 	 * @var array
 	 */
-	public $wheres = [];
+	public $wheres;
 
 	/**
 	 * The groupings for the query.
 	 *
 	 * @var array
 	 */
-	public $groups = [];
+	public $groups;
 
 	/**
 	 * The having constraints for the query.
 	 *
 	 * @var array
 	 */
-	public $havings = [];
+	public $havings;
 
 	/**
 	 * The orderings for the query.
 	 *
 	 * @var array
 	 */
-	public $orders = [];
+	public $orders;
 
 	/**
 	 * The maximum number of records to return.
@@ -124,7 +124,7 @@ class Builder {
 	 *
 	 * @var array
 	 */
-	public $unions = [];
+	public $unions;
 
 	/**
 	 * The maximum number of union records to return.
@@ -145,7 +145,7 @@ class Builder {
 	 *
 	 * @var array
 	 */
-	public $unionOrders = [];
+	public $unionOrders;
 
 	/**
 	 * Indicates whether row locking is being used.
@@ -180,7 +180,7 @@ class Builder {
 	 *
 	 * @var array
 	 */
-	protected $cacheTags = [];
+	protected $cacheTags;
 
 	/**
 	 * The cache driver to be used.
